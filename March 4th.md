@@ -4,7 +4,7 @@
 
  
  
-Arduino sendiri adalah salah satu *micro-controller* yang dimana kita tinggal mem*program* dengan IDE bawaan arduino. Arduino men-*support* beberapa input dan output, misalnya sensor atau display.
+Arduino sendiri adalah salah satu *micro-controller* yang dimana kita tinggal mem*program* dengan IDE bawaan arduino tanpa perlu merangkainya. Arduino men-*support* beberapa input dan output, misalnya sensor atau display.
 
 *note: source code di arduino biasa disebut sketch* 
 
@@ -13,3 +13,10 @@ Sensor sendiri berguna untuk mendeteksi perubahan di lingkungan sekitar dan meng
 > 1. LDR (Light Dependent Resistor) yang dimana nilai resistansinya berubah tergantung dari intensitas cahaya yang diterima.
 > 2. DHT (Digital Humidity and Temperature) sesuai namanya, sensor ini mendeteksi perubahan suhu dan kelembapan.
 
+
+  
+
+  
+  ##### footer:
+  
+>Selain itu, entah mengapa saat mencoba membuat *sketch* untuk menyalakan LED saat *value* LDR < 12 (kondisi gelap) yang terjadi malah sebaliknya. LED menyala saat *value* LDR > 12 (kondisi terang).
